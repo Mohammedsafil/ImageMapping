@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background: rgb(2,0,36);
+    background-image: url('./back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: gradientAnimation 10s ease infinite;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+div img{
+    width: 736px;
+    height: 414px;
+    position: relative;
+    padding: 160px;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+
