@@ -1,7 +1,6 @@
 body {
     text-align: center;
     background: rgb(2,0,36);
-    background-image: url('./back.png');
     background-repeat: no-repeat;
     background-size: cover;
     animation: gradientAnimation 10s ease infinite;
@@ -21,13 +20,18 @@ body {
     }
 }
 
-div img{
-    width: 736px;
-    height: 414px;
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     padding: 160px;
     padding-left: 250px;
     padding-top: 100px;
+}
+
+img{
+    width: ;
 }
 
 
